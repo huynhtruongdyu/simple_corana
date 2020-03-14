@@ -1,0 +1,9 @@
+{% extends 'base_frame.html' %}
+{% block main %}
+    <h1>Home</h1>
+    <h2>hello {{ request.user }}</h2>
+    <h4>Số liệu CORONA nè mấy má</h4>
+    <p>
+    {{ data }}
+    </p>
+{% endblock %}
